@@ -1,7 +1,11 @@
 package io.jenkins.plugins.zscaler;
 
 import hudson.AbortException;
-import okhttp3.*;
+import okhttp3.OkHttpClient;
+import okhttp3.Protocol;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
 import okio.Buffer;
 import org.junit.Assert;
 import org.junit.Test;
